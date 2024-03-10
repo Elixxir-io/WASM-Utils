@@ -12,3 +12,5 @@ build:
 
 tests:
 	GOOS=js GOARCH=wasm go test -v ./...
+
+test: tests
